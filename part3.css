@@ -13,6 +13,18 @@
   background-size:cover;
 
 }
+.bg-bottom {
+  background: url(images/Experience/SF.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+
+}
+
+.py-24{
+  padding-top: 18rem;
+  padding-bottom: 18rem;
+}
+
 .py-32 {
   padding-top: 24rem;
   padding-bottom: 24rem;

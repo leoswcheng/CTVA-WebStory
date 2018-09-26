@@ -13,10 +13,10 @@
 }
 
 .bg-quote {
-  background: url(images/Discover/Quote.jpg ) center center no-repeat;
+  background: url(images/Discover/Quote.jpg) center center no-repeat;
   width:40px height:40px;
   background-attachment: fixed;
-  background-size:cover;
+  background-size: cover;
 }
 
 .video-title {
