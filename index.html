@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" cotent="width=device-width, user-scalable=np, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="icon" type="image/png" href="images/logo.png">
+
+<title>CA Adventure</title>
+</head>
+
+
+
+<style>
+.mySlides {display:none;}
+</style>
+
+
+<body>
+
+	<div class="w3-content w3-display-container">
+
+ 		<div class="w3-display-container mySlides">
+
+   			<img src="images/Taste/Slide1.jpg" style="width:100%">
+
+   					<div class="w3-display-topmiddle">
+ 			  			 <a href="index.html"><img src="images/logo.png" style="width:30%"></a>
+ 	  				</div><!--w3-display-topmiddle-->
+
+   			 				<div class="w3-display-middle w3-text-white" style="font-family: 'Playfair Display', serif !important;">
+    			  				 <br><h1> / TASTE /  </h1><br>
+  								 
+  								 
+  									<a href="part2.html" class="w3-btn w3-large"> V I E W </a>
+
+         					</div><!--w3-display-middle-->
+   		 </div><!--w3-display-container-->
+
+	</div><!--w3-content-->
+
+	<!---SECOND SLIDES--->
+
+
+	<div class="w3-content w3-display-container">
+
+	 		<div class="w3-display-container mySlides">
+
+	   			<img src="images/Experience/Slide2.jpg" style="width:100%">
+
+	   					<div class="w3-display-topmiddle">
+	 			  			 <a href="index.html"><img src="images/logo.png" style="width:30%"></a>
+	 	  				</div><!--w3-display-topmiddle-->
+
+	   			 				<div class="w3-display-middle w3-text-white" style="font-family: 'Playfair Display', serif !important">
+	    			  				 <br><h1>/ EXPERIENCE / </h1><br>
+	  								 
+	  								
+  											<a href="part1.html" class="w3-btn w3-large"> V I E W </a>
+									
+	         					</div><!--w3-display-middle-->
+	   		 </div><!--w3-display-container-->
+	</div><!--w3-content-->
+
+	<!---THIRD SLIDES--->
+
+	<div class="w3-content w3-display-container">
+
+	 		<div class="w3-display-container mySlides">
+
+	   			<img src="images/Discover/Slide3.jpg" style="width:100%">
+
+	   					<div class="w3-display-topmiddle">
+	 			  			 <a href="index.html"><img src="images/logo.png" style="width:30%"></a>
+	 	  				</div><!--w3-display-topmiddle-->
+
+	   			 				<div class="w3-display-middle  w3-text-white" style=" font-family: 'Playfair Display', serif !important;">
+	    			  				 <br><h1>/ DISCOVER /</h1><br>
+
+	  									
+  											<a href="part3.html" class="w3-btn w3-large"> V I E W </a>
+									
+
+	         					</div><!--w3-display-middle-->
+	   		 </div><!--w3-display-container-->
+	</div><!--w3-content-->
+
+
+
+<!--left and right button -->
+
+<button class="w3-button w3-display-left  " onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right " onclick="plusDivs(1)">&#10095;</button>
+
+<!--left and right button-->
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+
+</script>
+
+
+</body>
+</html>

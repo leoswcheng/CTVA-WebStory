@@ -1,0 +1,32 @@
+/*..........Global..........*/
+
+html, body, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Playfair Display', serif !important;
+}
+
+h1 {font-size: 80px;}
+h2 {font-size: 48px;}
+h3 {font-size: 36px;}
+h4 {font-size: 24px;}
+h5 {font-size: 20px;}
+h6 {font-size: 18px;} 
+
+.w3-content,
+.w3-display-container{
+	max-width:100%;
+}
+
+
+
+.w3-display-topmiddle{
+	text-align: center;
+}
+
+.w3-display-middle{
+	width:100%;
+	text-align:center;
+	}
+
+.w3-btn{
+ background: rgba(0, 0, 0, 0.7)
+}

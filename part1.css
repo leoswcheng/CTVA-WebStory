@@ -1,0 +1,50 @@
+/**
+ * Custom CSS
+ *
+ * Add this to your Tailwind CSS file,
+ * or to a separate, custom CSS file.
+ *
+ * Update the background images to suit
+ * your project.
+ */
+.bg-header {
+  background: url(https://picsum.photos/1920/1920/?random) center center no-repeat;
+  background-attachment: fixed;
+}
+
+.bg-quote {
+  background: url(images/SF/Cover_SF.JPG ) center center no-repeat;
+  width:40px height:40px;
+  background-attachment: fixed;
+  background-size:cover;
+}
+
+.video-title {
+  background: #000;
+}
+
+@media only screen and (min-width : 768px) {
+  .video-wrapper {
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+    width: 100%;
+  }
+
+  .video-wrapper video {
+    height: 100%;
+    position: absolute;
+      top: 0;
+      left: 0;
+    width: 100%;
+  }
+
+  .video-title {
+    background-color: rgba(0,0,0, .7);
+    position: absolute;
+      top: 50%;
+      left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+  }
+}
