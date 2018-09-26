@@ -12,17 +12,15 @@
   background-size:cover;
 
 }
+
 .py-32 {
   padding-top: 24rem;
   padding-bottom: 30rem;
 }
-.bg-quote {
+.bg-bottom {
   background: url(images/Taste/head.jpg ) center center no-repeat;
-  width:40px height:40px;
   background-size: cover;
   background-attachment: fixed;
-
-
 
 }
 
