@@ -8,7 +8,7 @@
  * your project.
  */
 .bg-header {
-  background: url(images/Discover/head.jpg) center center no-repeat;
+  background: url(images/Experience/head.jpg) center center no-repeat;
   background-attachment: fixed;
   background-size:cover;
 
@@ -18,7 +18,7 @@
   padding-bottom: 24rem;
 }
 .bg-quote {
-  background: url(images/Discover/Quote.jpg ) center center no-repeat;
+  background: url(images/Experience/train.jpg ) center center no-repeat;
   width:40px height:40px;
   background-attachment: fixed;
   background-size:cover;
