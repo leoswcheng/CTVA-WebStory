@@ -8,13 +8,20 @@
  * your project.
  */
 .bg-header {
-  background-image:center center no-repeat;
+  background: url(images/Discover/head.jpg) center center no-repeat;
   background-attachment: fixed;
+  background-size:cover;
+
+}
+.py-32 {
+  padding-top: 24rem;
+  padding-bottom: 24rem;
 }
 .bg-quote {
-  background: url(images/SF/Cover_SF.JPG) center center no-repeat;
+  background: url(images/Discover/Quote.jpg ) center center no-repeat;
+  width:40px height:40px;
   background-attachment: fixed;
-   background-size:cover;
+  background-size:cover;
 }
 
 .video-title {
