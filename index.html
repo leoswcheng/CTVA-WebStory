@@ -17,19 +17,27 @@
 .mySlides {display:none;}
 </style>
 
-
 <body>
 
-	<div class="w3-content w3-display-container">
+	<div class="w3-content w3-display-container" >
 
  		<div class="w3-display-container mySlides">
 
-   			<img src="images/Taste/Slide1.JPG" style="width:100%">
+ 			<div id="slide1">
+   				<img src="images/Taste/Slide1.JPG" style="width:100%">
+   			</div>
 
+   			<!---media screen-->
+   			<div id="slide1mobile">
+   				<img src="images/Taste/Slide1_mobile.JPG" style="display:none">
+   			</div>
+   			<!---question---->
+   			
    					<div class="w3-display-topmiddle">
- 			  			 <a href="index.html"><img src="images/Logo.png" style="width:30%"></a>
+ 			  			 <a href="index.html"><img src="images/Logo.png" style="width:25%"></a>
  	  				</div><!--w3-display-topmiddle-->
 
+   			 				
    			 				<div class="w3-display-middle w3-text-white" style="font-family: 'Playfair Display', serif !important;">
     			  				 <br><h1> / T A S T E /  </h1><br>
   								 
@@ -51,7 +59,7 @@
 	   			<img src="images/Experience/Slide2.JPG" style="width:100%">
 
 	   					<div class="w3-display-topmiddle">
-	 			  			 <a href="index.html"><img src="images/Logo.png" style="width:30%"></a>
+	 			  			 <a href="index.html"><img src="images/Logo.png" style="width:25%"></a>
 	 	  				</div><!--w3-display-topmiddle-->
 
 	   			 				<div class="w3-display-middle w3-text-white" style="font-family: 'Playfair Display', serif !important">
@@ -73,7 +81,7 @@
 	   			<img src="images/Discover/Slide3.jpg" style="width:100%">
 
 	   					<div class="w3-display-topmiddle">
-	 			  			 <a href="index.html"><img src="images/Logo.png" style="width:30%"></a>
+	 			  			 <a href="index.html"><img src="images/LogO.png" style="width:25%"></a>
 	 	  				</div><!--w3-display-topmiddle-->
 
 	   			 				<div class="w3-display-middle  w3-text-white" style=" font-family: 'Playfair Display', serif !important;">
@@ -117,20 +125,6 @@ function showDivs(n) {
     x[slideIndex-1].style.display = "block"; 
 }
 
-var slideIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none"; 
-    }
-    slideIndex++;
-    if (slideIndex > x.length) {slideIndex = 1} 
-    x[slideIndex-1].style.display = "block"; 
-    setTimeout(carousel, 4000); // Change image every 2 seconds
-}
 
 </script>
 
